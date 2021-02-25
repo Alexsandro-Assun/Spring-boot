@@ -31,7 +31,8 @@ public class Jogos {
 	@ManyToOne
 	@JsonIgnoreProperties("jogos")
 	private Categoria categoria;
-
+	
+	
 	public String getTitulo() {
 		return titulo;
 	}
@@ -65,6 +66,7 @@ public class Jogos {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
+
 
 	
 	
